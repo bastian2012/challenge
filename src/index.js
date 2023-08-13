@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Core from './pages/Core';
 import './index.css';
 
-const items = ["Akèy", "Kontakte", "Poukisa"];
+const items = ["Home", "Contact", "About"];
 const group = "Coding Club";
 
 ReactDOM.render(
