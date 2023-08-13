@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Core from './Core';
+import Core from './pages/Core';
 import './index.css';
 
 const items = ["Akèy", "Kontakte", "Poukisa"];

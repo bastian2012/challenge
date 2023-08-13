@@ -1,15 +1,14 @@
 import React from 'react';
-import Header from './header';
-import MainContent from './MainContent';
-import Footer from './Footer';
+import Header from '../components/header';
+import Body from '../components/body';
+import Footer from '../components/Footer';
 
 class Core extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            bodyColor: '',
-        };
-    }
+
+    state = {
+        bodyColor: '',
+    };
+
 
     changeBodyColor = (color) => {
         this.setState({
@@ -26,7 +25,7 @@ class Core extends React.Component {
         return (
             <div className="aplikasyon" style={{ backgroundColor: `#${bodyColor}` }}>
                 <Header items={items} />
-                <MainContent colors={colors} changeBodyColor={this.changeBodyColor} />
+                <Body colors={colors} changeBodyColor={this.changeBodyColor} />
                 <Footer group={group} />
             </div>
         );

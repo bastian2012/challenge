@@ -10,7 +10,7 @@ class Header extends React.Component {
                     <ul className="lis-navigasyon">
                         {items.map((item, index) => (
                             <li key={index} className="eleman-navigasyon">
-                                <a href="#">{item}</a>
+                                <a href="google.com">{item}</a>
                             </li>
                         ))}
                     </ul>

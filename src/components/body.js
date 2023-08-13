@@ -1,6 +1,6 @@
 import React from 'react';
 
-class MainContent extends React.Component {
+class Body extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -39,4 +39,4 @@ class MainContent extends React.Component {
     }
 }
 
-export default MainContent;
+export default Body;
