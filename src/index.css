@@ -1,13 +1,60 @@
+/* index.css */
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.antèt {
+  background-color: #333;
+  color: white;
+  top: 0;
+  z-index: 100;
+  padding: 1rem;
+}
+
+.lis-navigasyon {
+  list-style: none;
+  display: flex;
+}
+
+.eleman-navigasyon {
+  margin-right: 1rem;
+}
+
+.eleman-navigasyon a {
+  color: white;
+  text-decoration: none;
+}
+
+.pied {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.kontniPrinsipal {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.kareKoulè {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: row;
+}
+.kare {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+border: black 10px;
 }
